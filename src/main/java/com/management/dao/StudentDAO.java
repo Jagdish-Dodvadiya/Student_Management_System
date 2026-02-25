@@ -1,4 +1,4 @@
-package com.managent.dao;
+package com.management.dao;
 
 public interface StudentDAO {
 

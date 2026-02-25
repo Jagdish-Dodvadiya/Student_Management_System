@@ -1,9 +1,9 @@
-package com.managent;
+package com.management;
 
-import com.managent.controller.StudentController;
-import com.managent.dao.StudentDAOImplementation;
-import com.managent.database.StudentDatabase;
-import com.managent.view.StudentView;
+import com.management.controller.StudentController;
+import com.management.dao.StudentDAOImplementation;
+import com.management.database.StudentDatabase;
+import com.management.view.StudentView;
 
 public class StudentManagementSystem {
     public static void main(String[] args) {

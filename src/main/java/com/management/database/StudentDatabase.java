@@ -1,4 +1,4 @@
-package com.managent.database;
+package com.management.database;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -8,7 +8,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.managent.model.Student;
+import com.management.model.Student;
 
 public class StudentDatabase implements DatabaseOperation {
 

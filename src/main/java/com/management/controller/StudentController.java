@@ -1,7 +1,7 @@
-package com.managent.controller;
+package com.management.controller;
 
-import com.managent.dao.StudentDAOImplementation;
-import com.managent.view.StudentView;
+import com.management.dao.StudentDAOImplementation;
+import com.management.view.StudentView;
 
 public class StudentController {
 

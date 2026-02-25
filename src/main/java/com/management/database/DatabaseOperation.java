@@ -1,8 +1,8 @@
-package com.managent.database;
+package com.management.database;
 
 import java.util.List;
 
-import com.managent.model.Student;
+import com.management.model.Student;
 
 public interface DatabaseOperation {
 

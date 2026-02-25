@@ -1,4 +1,4 @@
-package com.managent.model;
+package com.management.model;
 
 public class Student {
 

@@ -1,11 +1,11 @@
-package com.managent.dao;
+package com.management.dao;
 
 import java.util.InputMismatchException;
 import java.util.List;
 
-import com.managent.database.StudentDatabase;
-import com.managent.model.Student;
-import com.managent.view.StudentView;
+import com.management.database.StudentDatabase;
+import com.management.model.Student;
+import com.management.view.StudentView;
 
 public class StudentDAOImplementation implements StudentDAO {
 
