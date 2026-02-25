@@ -1,46 +1,61 @@
-# Student Management System
+﻿## 🧑‍🎓 Student Record Management System
 
-A console-based Java application to manage student records using MySQL and JDBC.
+The **Student Record Management System** is a Java-based CLI application designed to manage student data efficiently.  
+It follows the **MVC (Model-View-Controller)** pattern with a **DAO layer** for database access, giving clean separation between business logic, UI, and persistence. The app connects to **MySQL** using **JDBC** for permanent storage.
 
-## Features
+## 🚀 Features
 
-- Add a new student
-- Display all students
-- Update student semester and CGPA by ID
-- Search a student by ID
-- Delete a student by ID
-- Menu-driven CLI workflow
+1. Add Student
+2. View All Students
+3. Update Student Semester and CGPA
+4. Search Student by ID
+5. Delete Student
+6. Exit
 
-## Tech Stack
+## 🛠️ Tech Stack
 
-- Java 17
-- Maven
-- MySQL
-- JDBC (`mysql-connector-j:9.6.0`)
+- **Language:** Java (JDK 17+)
+- **Build Tool:** Maven
+- **Database:** MySQL
+- **Database Connectivity:** JDBC (`mysql-connector-j`)
+- **Architecture:** MVC + DAO
+- **UI:** Command Line Interface (CLI)
 
-## Project Structure
+## 📂 Project Structure
 
 ```text
-src/main/java/com/managent
-|- StudentManagementSystem.java
-|- controller/StudentController.java
-|- dao/StudentDAO.java
-|- dao/StudentDAOImplementation.java
-|- database/DatabaseOperation.java
-|- database/StudentDatabase.java
-|- model/Student.java
-`- view/StudentView.java
+student_management_system
+|-- pom.xml
+`-- src
+    `-- main
+        `-- java
+            `-- com
+                `-- managent
+                    |-- StudentManagementSystem.java
+                    |-- controller
+                    |   `-- StudentController.java
+                    |-- dao
+                    |   |-- StudentDAO.java
+                    |   `-- StudentDAOImplementation.java
+                    |-- database
+                    |   |-- DatabaseOperation.java
+                    |   `-- StudentDatabase.java
+                    |-- model
+                    |   `-- Student.java
+                    `-- view
+                        `-- StudentView.java
 ```
 
-## Prerequisites
+## 🧰 Setup Instructions
 
-- JDK 17+
-- Maven 3.8+
-- MySQL 8+
+1. Clone the repository:
 
-## Database Setup
+```bash
+git clone https://github.com/Jagdish-Dodvadiya/Student_Management_System.git
+cd Student_Management_System
+```
 
-Run the following SQL in MySQL:
+2. Create the MySQL database and table:
 
 ```sql
 CREATE DATABASE StudentDB;
@@ -56,11 +71,7 @@ CREATE TABLE Student (
 );
 ```
 
-## Configuration
-
-Update database credentials in:
-
-`src/main/java/com/managent/database/StudentDatabase.java`
+3. Update database credentials in `src/main/java/com/managent/database/StudentDatabase.java`:
 
 ```java
 private static final String DB_URL = "jdbc:mysql://localhost:3306/StudentDB";
@@ -68,18 +79,16 @@ private static final String USER = "root";
 private static final String PASS = "your_password";
 ```
 
-## Build and Run
-
-From the project root (`student_management_system`):
+4. Build and run the project:
 
 ```bash
 mvn clean compile
 mvn exec:java -Dexec.mainClass="com.managent.StudentManagementSystem"
 ```
 
-If you prefer, run `StudentManagementSystem.java` directly from your IDE.
+5. Alternatively, run `StudentManagementSystem.java` directly from your IDE.
 
-## Menu Options
+## 📋 Menu
 
 ```text
 1. add new student
@@ -90,7 +99,19 @@ If you prefer, run `StudentManagementSystem.java` directly from your IDE.
 6. exit from system
 ```
 
-## Notes
+## 👤 Author
 
-- This is a console CRUD project designed for learning MVC + DAO patterns in Java.
-- Database credentials are currently hard-coded and should be externalized for production use.
+- **Jagdish Dodvadiya**
+- **GitHub:** https://github.com/Jagdish-Dodvadiya
+- **Email:** mrthakor575@gmail.com
+
+## 📃 License
+
+This project is open-source and available under the **MIT License**.  
+See the [LICENSE](LICENSE) file for details.
+
+## ⚡ Built For
+
+Learning, practicing, and building real-world Java CRUD applications with MVC, DAO, JDBC, and MySQL.
+
+
