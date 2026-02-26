@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿## 🧑‍🎓 Student Record Management System
+=======
+## 🧑‍🎓 Student Record Management System
+>>>>>>> 3e5a0618a888ed376163c063bd40d3129de12e6a
 
 The **Student Record Management System** is a Java-based CLI application designed to manage student data efficiently.  
 It follows the **MVC (Model-View-Controller)** pattern with a **DAO layer** for database access, giving clean separation between business logic, UI, and persistence. The app connects to **MySQL** using **JDBC** for permanent storage.
@@ -100,6 +104,7 @@ mvn exec:java -Dexec.mainClass="com.managent.StudentManagementSystem"
 ```
 
 ## 👤 Author
+<<<<<<< HEAD
 
 - **Jagdish Dodvadiya**
 - **GitHub:** https://github.com/Jagdish-Dodvadiya
@@ -115,3 +120,18 @@ See the [LICENSE](LICENSE) file for details.
 Learning, practicing, and building real-world Java CRUD applications with MVC, DAO, JDBC, and MySQL.
 
 
+=======
+
+- **Jagdish Dodvadiya**
+- **GitHub:** https://github.com/Jagdish-Dodvadiya
+- **Email:** jagdishdodvadiya545@gmail.com
+
+## 📃 License
+
+This project is open-source and available under the **MIT License**.  
+See the [LICENSE](LICENSE) file for details.
+
+## ⚡ Built For
+
+Learning, practicing, and building real-world Java CRUD applications with MVC, DAO, JDBC, and MySQL.
+>>>>>>> 3e5a0618a888ed376163c063bd40d3129de12e6a
